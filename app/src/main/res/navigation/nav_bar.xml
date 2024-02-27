@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bar"
+    app:startDestination="@id/ShopJobListFragment">
+    <fragment
+        android:id="@+id/ShopJobListFragment"
+        android:name="com.example.myapplication.ShopJobListFragment"
+        android:label="ShopJobListFragment"
+        tools:layout="@layout/fragment_shop_job_list">
+        <action
+        android:id="@+id/show_shop_job_detail"
+        app:destination="@id/ShopJobDetailFragment" />
+        <action
+            android:id="@+id/change_list_view"
+            app:destination="@id/ShopManagerListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ShopManagerListFragment"
+        android:name="com.example.myapplication.ShopManagerListFragment"
+        android:label="ShopManagerListFragment"
+        tools:layout="@layout/fragment_shop_manager_list">
+        <action
+            android:id="@+id/change_list_view"
+            app:destination="@id/ShopJobListFragment" />
+        <action
+            android:id="@+id/show_shop_job_detail"
+            app:destination="@id/ShopManagerDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ShopManagerDetailFragment"
+        android:name="com.example.myapplication.ShopManagerDetailFragment"
+        android:label="ShopManagerDetailFragment"
+        tools:layout="@layout/fragment_shop_manager_detail" >
+        <argument
+            android:name="shopJobId"
+            app:argType="java.util.UUID" />
+    </fragment>
+    <fragment
+        android:id="@+id/ShopJobDetailFragment"
+        android:name="com.example.myapplication.ShopJobDetailFragment"
+        android:label="ShopJobDetailFragment"
+        tools:layout="@layout/fragment_shop_job_detail" >
+        <argument
+            android:name="shopJobId"
+            app:argType="java.util.UUID" />
+    </fragment>
+</navigation>

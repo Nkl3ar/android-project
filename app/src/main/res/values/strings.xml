@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Shop</string>
+    <string name="shop_job_name_label">Name</string>
+    <string name="shop_job_name_hint">Name</string>
+    <string name="shop_job_lat_label">Latitude</string>
+    <string name="shop_job_lat_hint">Latitude</string>
+    <string name="shop_job_long_label">Longitude</string>
+    <string name="shop_job_long_hint">Longitude</string>
+    <string name="shop_manager_spinner_title">Shop Manager:</string>
+    <string name="DeleteButton">Delete</string>
+    <string name="new_shop_job">New Shop Job</string>
+    <string name="change_list_view">Change List View</string>
+    <string name="shop_manager_name_label">Name</string>
+    <string name="shop_manager_name_hint">Name</string>
+</resources>

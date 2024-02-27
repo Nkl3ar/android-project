@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trgovina</string>
+    <string name="shop_job_name_label">Ime Posla</string>
+    <string name="shop_job_name_hint">Ime Posla</string>
+    <string name="shop_job_lat_label">Latituda</string>
+    <string name="shop_job_lat_hint">Latituda</string>
+    <string name="shop_job_long_label">Longituda</string>
+    <string name="shop_job_long_hint">Longituda</string>
+    <string name="shop_manager_spinner_title">Menadžer:</string>
+    <string name="DeleteButton">Izbriši</string>
+    <string name="new_shop_job">Novi posao</string>
+    <string name="change_list_view">Promijeni Pregled Liste</string>
+    <string name="shop_manager_name_label">Ime Menadžera</string>
+    <string name="shop_manager_name_hint">Ime Menadžera</string>
+</resources>
